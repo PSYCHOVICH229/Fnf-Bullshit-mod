@@ -1,0 +1,41 @@
+{
+	"song": {
+		"events": [
+			[
+				19726.0273972603,
+				[
+					[
+						"Change Character",
+						"dad",
+						"dad"
+					]
+				]
+			],
+			[
+				21164.3835616438,
+				[
+					[
+						"Change Character",
+						"bf",
+						"mom"
+					]
+				]
+			],
+			[
+				22808.2191780822,
+				[
+					[
+						"Change Character",
+						"dad",
+						"ssd2"
+					],
+					[
+						"Change Character",
+						"bf",
+						"bf"
+					]
+				]
+			]
+		]
+	}
+}

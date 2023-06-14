@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ahh_ew.png">
+	<!-- Created with Adobe Animate version 22.0.4.185 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ahh_ew0000" x="0" y="0" width="792" height="1301" frameX="0" frameY="0" frameWidth="867" frameHeight="1301"/>
+	<SubTexture name="ahh_ew0001" x="792" y="0" width="862" height="1290" frameX="-5" frameY="-2" frameWidth="867" frameHeight="1301"/>
+</TextureAtlas>

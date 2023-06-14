@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="sticky.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="sticky down0000" x="0" y="0" width="176" height="447" pivotX="5.15" pivotY="17.05" frameX="0" frameY="-12" frameWidth="176" frameHeight="471"/>
+	<SubTexture name="sticky down0001" x="176" y="0" width="176" height="471"/>
+	<SubTexture name="sticky idle0000" x="352" y="0" width="691" height="504" pivotX="5" pivotY="5" frameX="0" frameY="0" frameWidth="694" frameHeight="504"/>
+	<SubTexture name="sticky idle0001" x="1043" y="0" width="690" height="468" frameX="-1" frameY="-18" frameWidth="694" frameHeight="504"/>
+	<SubTexture name="sticky idle0002" x="0" y="504" width="690" height="434" frameX="-1" frameY="-35" frameWidth="694" frameHeight="504"/>
+	<SubTexture name="sticky idle0003" x="690" y="504" width="690" height="384" frameX="-1" frameY="-60" frameWidth="694" frameHeight="504"/>
+	<SubTexture name="sticky idle0004" x="0" y="938" width="690" height="424" frameX="-1" frameY="-40" frameWidth="694" frameHeight="504"/>
+	<SubTexture name="sticky idle0005" x="690" y="938" width="693" height="468" frameX="-1" frameY="-18" frameWidth="694" frameHeight="504"/>
+	<SubTexture name="sticky left0000" x="1383" y="938" width="183" height="462" pivotX="0.05" pivotY="4.9"/>
+	<SubTexture name="sticky right0000" x="1566" y="938" width="188" height="463" pivotX="13.15" pivotY="5.2" frameX="-8" frameY="0" frameWidth="224" frameHeight="463"/>
+	<SubTexture name="sticky right0001" x="1754" y="938" width="224" height="451" frameX="0" frameY="0" frameWidth="224" frameHeight="463"/>
+	<SubTexture name="sticky up0000" x="0" y="1406" width="245" height="542" pivotX="0" pivotY="5"/>
+</TextureAtlas>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="stick_talk.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="stick_idle0000" x="0" y="0" width="517" height="379"/>
+	<SubTexture name="stick_talk0000" x="0" y="0" width="517" height="379"/>
+	<SubTexture name="stick_talk0001" x="0" y="379" width="517" height="379"/>
+</TextureAtlas>

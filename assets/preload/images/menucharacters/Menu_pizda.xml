@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_pizda.png">
+	<!-- Created with Adobe Animate version 19.0.0.326 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="lol0000" x="0" y="0" width="783" height="448"/>
+	<SubTexture name="lol20000" x="0" y="448" width="399" height="121"/>
+</TextureAtlas>
