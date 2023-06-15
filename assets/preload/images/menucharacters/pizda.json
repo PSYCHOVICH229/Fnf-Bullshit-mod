@@ -1,0 +1,11 @@
+{
+	"confirm_anim": "lol2",
+	"idle_anim": "lol",
+	"position": [
+		300,
+		-40
+	],
+	"scale": 0.5,
+	"image": "Menu_pizda",
+	"flipX": false
+}

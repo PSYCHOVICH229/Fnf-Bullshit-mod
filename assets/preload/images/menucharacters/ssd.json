@@ -1,0 +1,11 @@
+{
+	"idle_anim": "lol2",
+	"image": "Menu_ssd",
+	"position": [
+		170,
+		110
+	],
+	"flipX": false,
+	"scale": 0.4,
+	"confirm_anim": "lol2"
+}

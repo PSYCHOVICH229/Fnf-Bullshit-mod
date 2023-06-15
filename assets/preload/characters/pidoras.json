@@ -1,0 +1,151 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				20,
+				-120
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-loop",
+			"image": "characters/FUCKERCHOCOLATE",
+			"indices": [
+				10,
+				11,
+				12,
+				12
+			],
+			"name": "Dad idle dance"
+		},
+		{
+			"offsets": [
+				-9,
+				20
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singLEFT-loop",
+			"image": "characters/FUCKERCHOCOLATE",
+			"indices": [
+				12,
+				13,
+				14,
+				15
+			],
+			"name": "Dad Sing Note LEFT"
+		},
+		{
+			"offsets": [
+				0,
+				27
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"image": "characters/FUCKERCHOCOLATE",
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			],
+			"name": "Dad Sing Note RIGHT"
+		},
+		{
+			"offsets": [
+				-6,
+				50
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singUP-loop",
+			"image": "characters/FUCKERCHOCOLATE",
+			"indices": [
+				56,
+				57,
+				58,
+				59
+			],
+			"name": "Dad Sing Note UP"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				-110
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"image": "characters/FUCKERCHOCOLATE",
+			"name": "FAKER DOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				110,
+				-63
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"image": "characters/FUCKERCHOCOLATE",
+			"name": "FAKER RIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				191,
+				10
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"image": "characters/FUCKERCHOCOLATE",
+			"name": "FAKER LEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				44,
+				-40
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"image": "characters/FUCKERCHOCOLATE",
+			"name": "FAKER UP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-100
+			],
+			"anim": "idle",
+			"fps": 24,
+			"image": "characters/FUCKERCHOCOLATE",
+			"name": "FAKER IDLE",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/FUCKERCHOCOLATE",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "FUCKER1",
+	"flip_x": false,
+	"healthbar_colors": [
+		0,
+		0,
+		1
+	],
+	"camera_position": [
+		-130,
+		150
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}
