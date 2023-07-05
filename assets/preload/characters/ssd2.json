@@ -1,56 +1,91 @@
 {
 	"animations": [
 		{
-			"loop": false,
+			"image": "characters/ssd2",
 			"offsets": [
 				340,
 				-20
 			],
-			"anim": "singDOWN",
+			"indices": [
+				4,
+				3,
+				2,
+				1,
+				0
+			],
 			"fps": 24,
-			"name": "down",
-			"indices": []
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down"
 		},
 		{
-			"loop": false,
+			"image": "characters/ssd2",
 			"offsets": [
 				441,
 				120
 			],
-			"anim": "singLEFT",
+			"indices": [
+				4,
+				3,
+				2,
+				1,
+				0
+			],
 			"fps": 24,
-			"name": "right",
-			"indices": []
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "right"
 		},
 		{
-			"loop": false,
+			"image": "characters/ssd2",
 			"offsets": [
 				329,
 				117
 			],
-			"anim": "singRIGHT",
+			"indices": [
+				4,
+				3,
+				2,
+				1,
+				0
+			],
 			"fps": 24,
-			"name": "left",
-			"indices": []
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "left"
 		},
 		{
-			"loop": false,
+			"image": "characters/ssd2",
 			"offsets": [
 				380,
 				120
 			],
-			"anim": "idle",
+			"indices": [
+				4,
+				3,
+				2,
+				1,
+				0
+			],
 			"fps": 24,
-			"name": "idle",
-			"indices": []
+			"anim": "idle",
+			"loop": false,
+			"name": "idle"
 		},
 		{
+			"image": "characters/ssd2",
 			"offsets": [
 				344,
 				110
 			],
-			"indices": [],
-			"fps": 120,
+			"indices": [
+				7,
+				6,
+				5,
+				4,
+				3
+			],
+			"fps": 24,
 			"anim": "singUP",
 			"loop": false,
 			"name": "up"
@@ -70,8 +105,8 @@
 		161
 	],
 	"camera_position": [
-		-90,
-		240
+		-70,
+		170
 	],
 	"sing_duration": 6.1,
 	"scale": 0.6
