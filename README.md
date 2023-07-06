@@ -4,7 +4,7 @@ Original engine originally used on [Mind Games Mod](https://gamebanana.com/mods/
 ## How to compile the mod and [Psych engine](https://github.com/ShadowMario/FNF-PsychEngine)
 You must have [Haxe 4.2.5](https://haxe.org/download/version/4.2.5//), seriously, stop using 4.1.5, it misses some stuff.
 
-[GameJolt Page](https://gamejolt.com/games/bullshit_mod/815517)
+[GameJolt Page](https://gamejolt.com/games/bullshit_mod/815517) its useless asf)
 
 open up a Command Prompt/PowerShell or Terminal, type `haxelib install hmm`
 
