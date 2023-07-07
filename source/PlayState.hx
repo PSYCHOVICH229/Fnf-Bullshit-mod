@@ -1301,6 +1301,7 @@ class PlayState extends MusicBeatState
 		RecalculateRating();
 
 		//PRECACHING MISS SOUNDS BECAUSE I THINK THEY CAN LAG PEOPLE AND FUCK THEM UP IDK HOW HAXE WORKS
+		//СУКА ТЫ ЕБЛАН ШЭДОУ МАРИО ЭТИ ЗВУКИ НЕ ИГРАЮТ КОГЛЫРОАВЫОРДЖОПОАРЫВПРОЛВЫПАРОПЛВЫАПОРЛЫАВРОПЛ
 		if(ClientPrefs.hitsoundVolume > 0) precacheList.set('hitsound', 'sound');
 		precacheList.set('missnote1', 'sound');
 		precacheList.set('missnote2', 'sound');

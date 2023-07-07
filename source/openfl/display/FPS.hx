@@ -49,7 +49,7 @@ class FPS extends TextField
 		defaultTextFormat = new TextFormat("_sans", 14, color);
 		autoSize = LEFT;
 		multiline = true;
-		text = "FPS: ";
+		text = "BITCHES: ";
 
 		cacheCount = 0;
 		currentTime = 0;
@@ -82,7 +82,7 @@ class FPS extends TextField
 
 		if (currentCount != cacheCount /*&& visible*/)
 		{
-			text = "FPS: " + currentFPS;
+			text = "BITCHES: " + currentFPS;
 			var memoryMegas:Float = 0;
 			
 			#if openfl
