@@ -121,6 +121,7 @@ class Main extends Sprite
 
 	// Code was entirely made by sqirra-rng for their fnf engine named "Izzy Engine", big props to them!!!
 	// very cool person for real they don't get enough credit for their work
+	//го фак юрселф❤
 	#if CRASH_HANDLER
 	function onCrash(e:UncaughtErrorEvent):Void
 	{
@@ -145,7 +146,7 @@ class Main extends Sprite
 			}
 		}
 
-		errMsg += "\nUncaught Error: " + e.error + "\nPlease report this error to the GitHub page: https://github.com/ShadowMario/FNF-PsychEngine\n\n> Crash Handler written by: sqirra-rng";
+		errMsg += "\nImagine breaking the game in 2023 lol " + e.error + "\nYour game crashed cry about it\n\n> Crash Handler written by: sqirra-rng";
 
 		if (!FileSystem.exists("./crash/"))
 			FileSystem.createDirectory("./crash/");
