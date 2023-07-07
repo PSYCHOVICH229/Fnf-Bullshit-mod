@@ -72,9 +72,10 @@ import sys.io.File;
 #end
 
 #if VIDEOS_ALLOWED
-#if (hxCodec >= "2.6.1") import hxcodec.VideoHandler as MP4Handler;
-#elseif (hxCodec == "2.6.0") import VideoHandler as MP4Handler;
-#else import vlc.MP4Handler; #end
+#if (hxCodec >= "2.6.1") import hxcodec.VideoHandler as VideoHandler;
+#elseif (hxCodec == "2.6.0") import VideoHandler as VideoHandler;
+#else import hxcodec.VideoHandler;
+import hxcodec.VideoSprite; #end
 #end
 
 using StringTools;
@@ -85,16 +86,16 @@ class PlayState extends MusicBeatState
 	public static var STRUM_X_MIDDLESCROLL = -278;
 
 	public static var ratingStuff:Array<Dynamic> = [
-		['Беги пока можешь Slowed And Reverb', 0.2], //From 0% to 19%
-		['Очень плохо', 0.4], //From 20% to 39%
-		['Плохо', 0.5], //From 40% to 49%
+		['237.231.153.222', 0.2], //From 0% to 19%
+		['very bad', 0.4], //From 20% to 39%
+		['BAD', 0.5], //From 40% to 49%
 		['*skull emoji*', 0.6], //From 50% to 59%
-		['Нууу...', 0.69], //From 60% to 68%
-		['Пойдет', 0.7], //69%
-		['Хорошо', 0.8], //From 70% to 79%
-		['Нормально', 0.9], //From 80% to 89%
-		['Круто!', 1], //From 90% to 99%
-		['Идеально!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
+		['nah', 0.69], //From 60% to 68%
+		['Meh', 0.7], //69%
+		['Ok', 0.8], //From 70% to 79%
+		['OH YA!', 0.9], //From 80% to 89%
+		['OOH YAA!!', 1], //From 90% to 99%
+		['OOOH YAAA!!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
 	];
 
 	//event variables
@@ -1572,7 +1573,7 @@ class PlayState extends MusicBeatState
 			return;
 		}
 
-		var video:MP4Handler = new MP4Handler();
+		var video:VideoHandler = new VideoHandler();
 		video.playVideo(filepath);
 		video.finishCallback = function()
 		{
@@ -2817,10 +2818,10 @@ class PlayState extends MusicBeatState
 
 	override public function update(elapsed:Float)
 	{
-		/*if (FlxG.keys.justPressed.NINE)
+		if (FlxG.keys.justPressed.NINE)
 		{
 			iconP1.swapOldIcon();
-		}*/
+		}
 		callOnLuas('onUpdate', [elapsed]);
 
 		switch (curStage)
