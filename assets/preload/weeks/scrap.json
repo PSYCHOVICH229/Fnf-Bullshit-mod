@@ -1,0 +1,50 @@
+{
+	"storyName": "OLD SONGS",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"songs": [
+		[
+			"Insomnia",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"markov",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"frostbite",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"weekCharacters": [
+		"ssd",
+		"bf",
+		"gf"
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "scrapped songs"
+}
