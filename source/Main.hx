@@ -146,7 +146,7 @@ class Main extends Sprite
 			}
 		}
 
-		errMsg += "\nImagine breaking the game in 2023 lol " + e.error + "\nYour game crashed cry about it\n\n> Crash Handler written by: sqirra-rng";
+		errMsg += "\nImagine breaking the game in 2023 lol\n\n> DONT REPORT THEM TO ME! " + e.error + "\nYour game crashed cry about it\n\n> Crash Handler written by: sqirra-rng very cool guy";
 
 		if (!FileSystem.exists("./crash/"))
 			FileSystem.createDirectory("./crash/");
@@ -154,9 +154,9 @@ class Main extends Sprite
 		File.saveContent(path, errMsg + "\n");
 
 		Sys.println(errMsg);
-		Sys.println("Crash dump saved in " + Path.normalize(path));
+		Sys.println("Crash dump saved in " + Path.normalize(path));//nowhere *troll wmojii*
 
-		Application.current.window.alert(errMsg, "Error!");
+		Application.current.window.alert(errMsg, "aw fuck yo game crashed");
 		DiscordClient.shutdown();
 		Sys.exit(1);
 	}
